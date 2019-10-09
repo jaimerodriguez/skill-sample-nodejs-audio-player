@@ -41,11 +41,11 @@ $ ask init
 $ (cd lambda && npm install)
 ```
 
-4. This example using Alexa SDK for NodeJS v2 is using [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html), you need to install Typescript compiler
+4. This example using Alexa SDK for NodeJS v2 is using [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html), you need to install Typescript compiler. 
 
 ```bash
 $ npm install -g typescript
-$ (cd lambda && tsc)
+$ tsc 
 ```
 
 ### Code changes before deploying
